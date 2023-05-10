@@ -1,0 +1,20 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.button {
+  color: #ff0b37;
+  background: transparent;
+  border: 1px solid #ff0b37;
+  font-family: 'Roboto';
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}

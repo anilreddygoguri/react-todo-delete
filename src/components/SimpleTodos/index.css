@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.simple-todos-bg-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.simple-todos-card {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+.todos-ul-list {
+  list-style-type: none;
+}
